@@ -1,0 +1,95 @@
+body{
+  /*font-size: 0.5em;*/
+}
+
+#click{
+  display: none;
+  position: absolute;
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6, #t7, form{
+  display: none;
+}
+
+/*footer{
+  position: fixed;
+  top: 90vh;
+}*/
+
+#keyboard{
+  text-align: center;
+}
+
+span{
+  display: inline-block;
+}
+
+.half{
+  width: 50vw;
+}
+
+.r{
+  /*display: inline-block;*/
+  float: right;
+}
+
+.l{
+  /*display: inline-block;*/
+  float: left;
+}
+
+.you{
+  transform: rotate(270deg);
+}
+
+.me{
+  transform: rotate(90deg);
+}
+
+#pino{
+  width: 10px;
+  height: 13px;
+}
+#pinocchio{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.middle{
+  text-align: center;
+}
+
+#wasd{
+  transform: scale(2);
+  position: relative;
+  top: 230px;
+}
+
+#clickAttacker{
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+#t5done{
+  display: none;
+  position: relative;
+  top: 20px;
+}
+
+.nota{
+  text-decoration: none;
+  color: black;
+}
+
+/*details{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}*/
+
+.big{
+  font-size: 2.5em;
+}
